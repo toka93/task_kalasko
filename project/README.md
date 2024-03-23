@@ -14,7 +14,7 @@ https://www.eclipse.org/downloads/
 Web Configuration inside test/resources 
 - Website URL
 - Browser (chrome/firefox)
-- Headless (true/false)
+- Headless (true/false) <br>
 Log4j Configuration inside main/resources
  
    
@@ -41,9 +41,9 @@ Log4j Configuration inside main/resources
 # Automation Strategy
 
 Page object was applied by creating sperate class for each page in the app holds locators and actions 
-Data is saved in json file.
-Extent Report library is used for reporting
-Log4j is used to generate logs 
+Data is saved in json file.<br>
+Extent Report library is used for reporting.<br>
+Log4j is used to generate logs.<br>
 Testng used for handling running, assertions and handle tests life cycle by using annotations.
 
 
