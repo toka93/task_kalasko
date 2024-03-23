@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll" verbose="1">
+		<listeners>
+        <listener class-name="tests.ListenerTest"/>
+    </listeners>
+<test name="MobileTest">
+
+		<classes>
+			
+		
+			<class name="tests.AmazonTest"/>
+		
+		</classes>
+	</test>
+
+</suite>
